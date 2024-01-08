@@ -4,8 +4,19 @@ pipeline {
     environment {
         dotnet = 'C:\\Program Files\\dotnet\\dotnet.exe'
     }
+	
+	options {
+		skipDefaultCheckout()
+	}
 
     stages {
+		stage('Checkout source code') {
+		  steps {
+			checkout
+			bat 'ls -la'
+		  }
+		}
+	
         stage('Build') {
             steps {
 				bat 'dotnet restore Wiseman.PJC.Service.GroupSettings.sln'
