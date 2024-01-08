@@ -12,7 +12,7 @@ pipeline {
     stages {
 	stage('Checkout source code') {
 	    steps {
-		dir('D:\\DevOps') {
+		dir('D:\\DevOps\\.jenkins\\workspace') {
 			git branch: 'main',
         		url: 'https://github.com/kienngo/test2pipeline_jenkin.git'
 		}
