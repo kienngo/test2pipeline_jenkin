@@ -3,4 +3,14 @@
 https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2024-01-08T07:33:09.8879011Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Jenkinsfile">
+      <publishTime>01/08/2024 14:34:51</publishTime>
+    </File>
+  </ItemGroup>
 </Project>
