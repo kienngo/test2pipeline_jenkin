@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                bat 'C:\ProgramData\Jenkins\.jenkins\workspace\Test2PipelineJenkin\ProjectSample\ProjectSample.sln --configuration Release'
+                bat 'ProjectSample.sln --configuration Release'
             }
         }
     }
