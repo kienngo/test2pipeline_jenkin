@@ -1,17 +1,14 @@
 pipeline {
     agent any
 
-    stages {
-        stage('Checkout source code') {
-          steps {
-            git branch: 'main',
-            url: 'https://github.com/kienngo/test2pipeline_jenkin.git'
-          }
-        }
+    environment {
+        dotnet = 'C:\\Program Files\\dotnet\\dotnet.exe'
+    }
 
+    stages {
         stage('Build') { 
             steps {
-				bat 'echo "Hello world"'
+                bat 'C:\ProgramData\Jenkins\.jenkins\workspace\Test2PipelineJenkin\ProjectSample\ProjectSample.sln --configuration Release'
             }
         }
     }
