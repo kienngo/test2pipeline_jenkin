@@ -8,19 +8,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'dotnet build ProjectSample\\Wiseman.PJC.Service.GroupSettings.sln --configuration Release'
+                bat 'dotnet build Wiseman.PJC.Service.GroupSettings.sln --configuration Release'
             }
         }
 
         stage('Test') {
             steps {
-                bat 'dotnet test ProjectSample\\Wiseman.PJC.Service.GroupSettings.WebApi\\Wiseman.PJC.Service.GroupSettings.WebApi.csproj'
+                bat 'dotnet test Wiseman.PJC.Service.GroupSettings.WebApi\\Wiseman.PJC.Service.GroupSettings.WebApi.csproj'
             }
         }
 
         stage('Release') {
             steps {
-                bat 'dotnet build ProjectSample\\Wiseman.PJC.Service.GroupSettings.sln /p:PublishProfile=" ProjectSample\\Properties\\PublishProfiles\\FolderProfile.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
+                bat 'dotnet build Wiseman.PJC.Service.GroupSettings.sln /p:PublishProfile=" Properties\\PublishProfiles\\FolderProfile.pubxml" /p:Platform="Any CPU" /p:DeployOnBuild=true /m'
             }
         }
     }
