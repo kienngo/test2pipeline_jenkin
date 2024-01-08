@@ -6,7 +6,7 @@ pipeline {
           steps {
             git branch: 'main',
             url: 'https://github.com/kienngo/test2pipeline_jenkin.git'
-            sh 'ls -la'
+            bat 'ls -la'
           }
         }
 
