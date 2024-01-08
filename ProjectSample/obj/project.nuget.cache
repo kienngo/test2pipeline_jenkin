@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SVZLRRlmM5wezyJ5ydxT5q2py31wbXnfGYVVXRaNlJjLLatSL1HsBRYK+99WFAarqp6fJE4DAARquJuwwoTQGA==",
+  "success": true,
+  "projectFilePath": "D:\\DevOps\\jenkin\\test2pipeline_jenkin\\test2pipeline_jenkin\\ProjectSample\\ProjectSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\micke\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}

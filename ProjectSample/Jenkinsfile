@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+	environment {
+		
+	}  
+
+    stages {
+        stage('Build') { 
+            steps {
+				bat 'echo "Hello world"'
+            }
+        }
+    }
+}
