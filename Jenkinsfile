@@ -10,12 +10,11 @@ pipeline {
 	}
 
     stages {
-		stage('Checkout source code') {
-		  steps {
-			checkout
-			bat 'ls -la'
-		  }
-		}
+	stage('Checkout source code') {
+	    steps {
+		checkout
+	    }
+	}
 	
         stage('Build') {
             steps {
