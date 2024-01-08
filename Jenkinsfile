@@ -8,6 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+				bat 'dotnet restore Wiseman.PJC.Service.GroupSettings.sln'
                 bat 'dotnet build Wiseman.PJC.Service.GroupSettings.sln --configuration Release'
             }
         }
