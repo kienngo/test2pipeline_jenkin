@@ -1,7 +1,0 @@
-D:\DevOps\jenkin\test2pipeline_jenkin\test2pipeline_jenkin\ProjectSample\obj\Release\net6.0\PubTmp\Out\ProjectSample.exe
-D:\DevOps\jenkin\test2pipeline_jenkin\test2pipeline_jenkin\ProjectSample\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
-D:\DevOps\jenkin\test2pipeline_jenkin\test2pipeline_jenkin\ProjectSample\obj\Release\net6.0\PubTmp\Out\appsettings.json
-D:\DevOps\jenkin\test2pipeline_jenkin\test2pipeline_jenkin\ProjectSample\obj\Release\net6.0\PubTmp\Out\ProjectSample.dll
-D:\DevOps\jenkin\test2pipeline_jenkin\test2pipeline_jenkin\ProjectSample\obj\Release\net6.0\PubTmp\Out\ProjectSample.deps.json
-D:\DevOps\jenkin\test2pipeline_jenkin\test2pipeline_jenkin\ProjectSample\obj\Release\net6.0\PubTmp\Out\ProjectSample.runtimeconfig.json
-D:\DevOps\jenkin\test2pipeline_jenkin\test2pipeline_jenkin\ProjectSample\obj\Release\net6.0\PubTmp\Out\ProjectSample.pdb
