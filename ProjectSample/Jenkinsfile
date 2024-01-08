@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                bat 'ProjectSample.sln --configuration Release'
+                bat 'dotnet build ProjectSample.sln --configuration Release'
             }
         }
     }
