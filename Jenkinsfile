@@ -12,8 +12,10 @@ pipeline {
     stages {
 	stage('Checkout source code') {
 	    steps {
-		git branch: 'main',
-        	url: 'https://github.com/kienngo/test2pipeline_jenkin.git'
+		dir('D:\DevOps') {
+			git branch: 'main',
+        		url: 'https://github.com/kienngo/test2pipeline_jenkin.git'
+		}
 	    }
 	}
 	
